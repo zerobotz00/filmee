@@ -32,19 +32,34 @@ AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_chan
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "")
-DATABASE_NAME = environ.get('DATABASE_NAME', "LazyDeveloper")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://filmee:Spasan0088@cluster0.ynu7cn2.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_NAME = environ.get('DATABASE_NAME', "FimeeHub⭕Community")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Others
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', 0))
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'LazyDeveloper')
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'FimeeHub⭕Community')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
 IMDB = is_enabled((environ.get('IMDB', "True")), True)
 SINGLE_BUTTON = is_enabled((environ.get('SINGLE_BUTTON', "False")), False)
 CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", None)
 BATCH_FILE_CAPTION = environ.get("BATCH_FILE_CAPTION", CUSTOM_FILE_CAPTION)
-IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", "<b>Your Query: {query}</b> \n‌‌‌‌IMDb Data by: @LazyDeveloper \n\n🏷 Title: <a href={url}>{title}</a>\n🎭 Genres: {genres}\n📆 Year: <a href={url}/releaseinfo>{year}</a>\n🌟 Rating: <a href={url}/ratings>{rating}</a> / 10 \n\n♥️ we are nothing without you ♥️ \n\n💛 Please Share Us 💛\n\n⚠️Click on the button 👇 below to get your query privately")
+IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", "<i><b>🏷 Title </b></i> : <i><b><a href={url}>{title}</a></b></i>
+<i><b>📆 Release Date</b></i> : <i><b>{release_date}</b></i>
+
+<i><b>📧 Votes</b></i> : <i><b>{votes}</b></i>
+<i><b>⏰ RunTime</b></i> : <i><b>{runtime} Minutes</b></i>
+<i><b>⭐ Rating</b></i> : <i><b><a href={url}/ratings>{rating}/10</a></b></i>
+<i><b>🎭 Genres</b></i> : <i><b>{genres}</b></i>
+<i><b>🎬 Director</b></i> : <i><b>{director}</b></i>
+<i><b>📝 Writer</b></i> : <i><b>{writer}</b></i>
+<i><b>🔊 Languages</b></i> : <i><b>#{languages}</b></i>
+
+
+<i><b>👩🏻‍💻 Requested By</b></i> : <i><b>{message.from_user.mention}</b></i>
+<i><b>🚀 Group</b></i> : <i><b>{message.chat.title}</b></i>
+
+Powerd by :  @movie_link_lk")
 LONG_IMDB_DESCRIPTION = is_enabled(environ.get("LONG_IMDB_DESCRIPTION", "False"), False)
 SPELL_CHECK_REPLY = is_enabled(environ.get("SPELL_CHECK_REPLY", "True"), False)
 MAX_LIST_ELM = environ.get("MAX_LIST_ELM", None)
