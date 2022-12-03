@@ -103,7 +103,7 @@ python3 bot.py
 [![telegram badge](https://img.shields.io/badge/Telegram-Channel-30302f?style=flat&logo=telegram)](https://t.me/filmeehubchannel)
 
 ## Credits 
-* [![FilmeeHu⭕Community-Devs](https://img.shields.io/static/v1?label=LazyPrincess&message=devs&color=critical)](https://t.me/filmeehubchannel)
+* [[FilmeeHu⭕Community-Devs](https://img.shields.io/static/v1?label=LazyPrincess&message=devs&color=critical)](https://t.me/filmeehubchannel)
 
 
 ## Thanks to 
