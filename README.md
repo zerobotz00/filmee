@@ -114,7 +114,7 @@ link - to create link for one post
 
 ### Note
 
- [![FilmeeHu⭕Community](https://img.shields.io/static/v1?label=FilmeeHu⭕Community&message=Main Channel&color=Green)](https://t.me/filmeehubchannel)
+ [![FilmeeHu⭕Community](https://img.shields.io/static/v1?label=FilmeeHu⭕Community&message=MainChannel&color=green)](https://t.me/filmeehubchannel)
 
 
 ## Disclaimer
