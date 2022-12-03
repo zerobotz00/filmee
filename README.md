@@ -114,7 +114,7 @@ link - to create link for one post
 
 ### Note
 
-[Join Main Channel](https://t.me/filmeehubchannel)): Filmee
+ [![FilmeeHu⭕Community](https://img.shields.io/static/v1?(https://t.me/filmeehubchannel)): Filmee
 
 ## Disclaimer
 [![GNU Affero General Public License 2.0](https://www.gnu.org/graphics/agplv3-155x51.png)](https://www.gnu.org/licenses/agpl-3.0.en.html#header)    
